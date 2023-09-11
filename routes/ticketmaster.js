@@ -16,47 +16,30 @@ router.get('/events', async function (req, res) {
         const ticketMasterResponse = await axios.get(ticketmaster_url);
         const eventData = ticketMasterResponse.data._embedded.events;
         //extract data 
-        const eventDetails = eventData.map((event => (
-            {
+        const eventDetailsList = await Promise.all(eventData.map(async (event) => {
+            const address = `${event._embedded.venues[0].address.line1},${event._embedded.venues[0].city.name}`;
+            const eventDetails = {
                 name: event.name,
                 id: event.id,
-                address: `${event._embedded.venues[0].address.line1},${event._embedded.venues[0].city.name}`,
-                link: event.url
-            })
-        ))
+                address: address,
+                link: event.url,
+            }
 
-        res.send(eventDetails);
+            const googleMapsUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${eventDetails.address}&key=${googleApiKey}`;
+            const geoResponse = await axios.get(googleMapsUrl);
+            const geoLocation = geoResponse.data.results[0];
+            const formattedAddress = geoLocation.formatted_address;
+            const latitude = geoLocation.geometry.location.lat;
+            const longitude = geoLocation.geometry.location.lng;
 
-        // const eventDetails = {  
-        //     name: eventData.name,
-        //     id: eventData.id,
-        //     address: `${eventData._embedded.venues[0].address.line1},${eventData._embedded.venues[0].city.name}`,
-        //     link: eventData.url,
-        //}
+            eventDetails.formatted_address = formattedAddress;
+            eventDetails.geometry = `${latitude},${longitude}`;
 
-        // use the address from eventdetails to fectch geocode
+            return eventDetails;
+        }));
+        res.json(eventDetailsList)
 
-        // const googleMapsUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(eventDetails.address)}&key=${googleApiKey}`;
-        // const geoResponse = await axios.get(googleMapsUrl);
-        // const geoLocation = geoResponse.data.results[0];
-        // const formattedAddress = geoLocation.formatted_address;
-        // const latitude = geoLocation.geometry.location.lat;
-        // const longitude = geoLocation.geometry.location.lng;
 
-        // eventDetails.formatted_address = formattedAddress;
-        // eventDetails.geometry = `${latitude},${longitude}`;
-
-        // const htmlResponse = `
-        //       <p><strong>Event Name:</strong> ${eventDetails.name}</p>
-        //       <p><strong>Event ID:</strong> ${eventDetails.id}</p>
-        //       <p><strong>Address:</strong> ${eventDetails.formatted_address}</p>
-        //       <p><strong>Link:</strong> <a href="${eventDetails.link}">${eventDetails.link}</a></p>
-        //       <p><strong>Geolocation:</strong> ${eventDetails.geometry}</p>
-        //        `;
-
-        //res.send(eventDetails);
-
-        //return res.json(response.data); // return the whole data 
     } catch (error) {
         console.error(error);
         res.status(500).send("An error occur");
