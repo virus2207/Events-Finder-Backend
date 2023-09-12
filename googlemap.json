@@ -1,0 +1,355 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJM9KTrJpXkWsRQK_e81qjAgQ",
+            "types": [
+                "colloquial_area",
+                "locality",
+                "political"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJyUQRrfNZkWsRnfseG1IJgAo",
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": -27.4576542,
+                    "lng": 153.0413852
+                },
+                "southwest": {
+                    "lat": -27.4851373,
+                    "lng": 153.0259871
+                }
+            },
+            "copyrights": "Map data ©2023",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "6.9 km",
+                        "value": 6892
+                    },
+                    "duration": {
+                        "text": "11 mins",
+                        "value": 688
+                    },
+                    "end_address": "312-318 Brunswick St, Fortitude Valley QLD 4006, Australia",
+                    "end_location": {
+                        "lat": -27.4576542,
+                        "lng": 153.03487
+                    },
+                    "start_address": "Brisbane QLD, Australia",
+                    "start_location": {
+                        "lat": -27.4704302,
+                        "lng": 153.0260145
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 221
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 62
+                            },
+                            "end_location": {
+                                "lat": -27.4691102,
+                                "lng": 153.0276867
+                            },
+                            "html_instructions": "Head \u003cb\u003enorth-east\u003c/b\u003e on \u003cb\u003eElizabeth St\u003c/b\u003e towards \u003cb\u003eXile Ln\u003c/b\u003e",
+                            "polyline": {
+                                "points": "ditfDq{~d\\g@s@a@i@}AyB_BwB"
+                            },
+                            "start_location": {
+                                "lat": -27.4704302,
+                                "lng": 153.0260145
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 435
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 110
+                            },
+                            "end_location": {
+                                "lat": -27.4720545,
+                                "lng": 153.0305836
+                            },
+                            "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eEdward St\u003c/b\u003e",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "|`tfDaf_e\\dAaAnAoAvCuCvCsCdCeC"
+                            },
+                            "start_location": {
+                                "lat": -27.4691102,
+                                "lng": 153.0276867
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 km",
+                                "value": 527
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 84
+                            },
+                            "end_location": {
+                                "lat": -27.4751959,
+                                "lng": 153.0266685
+                            },
+                            "html_instructions": "\u003cb\u003eEdward St\u003c/b\u003e turns \u003cb\u003eright\u003c/b\u003e and becomes \u003cb\u003eAlice St\u003c/b\u003e",
+                            "polyline": {
+                                "points": "hstfDcx_e\\JE@?@?@?@?@@@??@@?DFHJLN|B`DjA~AT\\nBpCzB`D\\d@rApB"
+                            },
+                            "start_location": {
+                                "lat": -27.4720545,
+                                "lng": 153.0305836
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "76 m",
+                                "value": 76
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 10
+                            },
+                            "end_location": {
+                                "lat": -27.4756714,
+                                "lng": 153.0261196
+                            },
+                            "html_instructions": "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAlice St\u003c/b\u003e",
+                            "maneuver": "keep-left",
+                            "polyline": {
+                                "points": "~fufDu__e\\DB@@B@FF?@\\h@DHRVPN"
+                            },
+                            "start_location": {
+                                "lat": -27.4751959,
+                                "lng": 153.0266685
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 116
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 10
+                            },
+                            "end_location": {
+                                "lat": -27.4766524,
+                                "lng": 153.0262042
+                            },
+                            "html_instructions": "Take the \u003cb\u003eM3\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePacific Motorway\u003c/b\u003e slip road on the \u003cb\u003eright\u003c/b\u003e to \u003cb\u003eLogan\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eGold Coast\u003c/b\u003e",
+                            "maneuver": "ramp-right",
+                            "polyline": {
+                                "points": "|iufDg|~d\\VNPDF@B@H?H?RANAVGTGTKPI"
+                            },
+                            "start_location": {
+                                "lat": -27.4756714,
+                                "lng": 153.0261196
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.9 km",
+                                "value": 862
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 43
+                            },
+                            "end_location": {
+                                "lat": -27.4830868,
+                                "lng": 153.0310785
+                            },
+                            "html_instructions": "Merge onto \u003cb\u003eM3\u003c/b\u003e",
+                            "maneuver": "merge",
+                            "polyline": {
+                                "points": "`pufDw|~d\\h@Yh@[@?x@k@TO`Au@JIFEHGHGx@k@ROd@]b@[JILIp@e@HEJINKJIHGrCsB\\WVSBA\\W\\Up@g@bAs@\\WhBqAPK^WNMHGJGRMtAy@LI"
+                            },
+                            "start_location": {
+                                "lat": -27.4766524,
+                                "lng": 153.0262042
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 439
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 32
+                            },
+                            "end_location": {
+                                "lat": -27.4843448,
+                                "lng": 153.0346628
+                            },
+                            "html_instructions": "Take exit \u003cb\u003e2\u003c/b\u003e for \u003cb\u003eState Rte 41\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eVulture St\u003c/b\u003e",
+                            "maneuver": "ramp-left",
+                            "polyline": {
+                                "points": "hxvfDg{_e\\FQ@ABCJI|@a@t@_@t@a@VURUT]BGJUPy@B]?I@QAe@Im@Ku@Iq@KgCEe@"
+                            },
+                            "start_location": {
+                                "lat": -27.4830868,
+                                "lng": 153.0310785
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 km",
+                                "value": 520
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 71
+                            },
+                            "end_location": {
+                                "lat": -27.4851373,
+                                "lng": 153.0398515
+                            },
+                            "html_instructions": "Merge onto \u003cb\u003eVulture St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eState Route 41\u003c/b\u003e",
+                            "maneuver": "merge",
+                            "polyline": {
+                                "points": "b`wfDsq`e\\BSPuAFm@B_@H}@J}BNqBBSRuBVcDf@yF"
+                            },
+                            "start_location": {
+                                "lat": -27.4843448,
+                                "lng": 153.0346628
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.7 km",
+                                "value": 725
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 88
+                            },
+                            "end_location": {
+                                "lat": -27.4789235,
+                                "lng": 153.0413852
+                            },
+                            "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eWellington Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eState Route 95\u003c/b\u003e",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "bewfDarae\\CA?AACAAAIAIAGAEACAECAAC?CAC?A}BYs@IkBUsAOUCuFq@IAKAgCY}BYwAKk@IEAa@ESCw@Im@I"
+                            },
+                            "start_location": {
+                                "lat": -27.4851373,
+                                "lng": 153.0398515
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 262
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 34
+                            },
+                            "end_location": {
+                                "lat": -27.4773648,
+                                "lng": 153.0393993
+                            },
+                            "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eShafston Ave\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eState Route 23\u003c/b\u003e",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "f~ufDu{ae\\KZuBtCGHiAvAKLwAjB"
+                            },
+                            "start_location": {
+                                "lat": -27.4789235,
+                                "lng": 153.0413852
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.9 km",
+                                "value": 925
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 54
+                            },
+                            "end_location": {
+                                "lat": -27.4736347,
+                                "lng": 153.0359449
+                            },
+                            "html_instructions": "Take the slip road on the \u003cb\u003eright\u003c/b\u003e to \u003cb\u003eM7\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eClem Jones Tunl\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSunshine Coast\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                            "maneuver": "ramp-right",
+                            "polyline": {
+                                "points": "ntufDgoae\\ULIHEHe@l@_@d@STW\\Y\\W\\U\\ORWRSTEHA@CDAHCTGf@Ef@?@KlAE`@ADId@A?ERCPCPCRABA`@?@?T?F?J?@BNBFBF@@FFNJD@@?LBXBD@J?PCZI@?HCJMBE@ADI@I@M?M?KAECCAAACA?QIIEMCU@a@?q@?e@?gA?gAAkBAgA?k@E"
+                            },
+                            "start_location": {
+                                "lat": -27.4773648,
+                                "lng": 153.0393993
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.8 km",
+                                "value": 1784
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 90
+                            },
+                            "end_location": {
+                                "lat": -27.4576542,
+                                "lng": 153.03487
+                            },
+                            "html_instructions": "Merge onto \u003cb\u003eClem Jones Tunl\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eM7\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                            "maneuver": "merge",
+                            "polyline": {
+                                "points": "d}tfDsy`e\\g@@GAe@AEAeDIa@@S?}B?eAHQ@u@Fc@Bc@DmCPc@Bc@Bc@Bc@Bc@BE?aADa@B[@G@c@?c@@kBDoEJk@@C?A?A?aA@oB?kA?kCBc@?K?cC@c@?c@@c@?E?eB?]?E?c@?cB@yABS@E@G?}@HsCNE@]Ba@D{@HgBVmAT_@F"
+                            },
+                            "start_location": {
+                                "lat": -27.4736347,
+                                "lng": 153.0359449
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "ditfDq{~d\\gGoIdM{LdCeCJE@?D?b@f@nIpLxCfErApBDBDBFHb@r@d@f@h@TJBR?b@Cl@Of@UrAu@z@k@jBuA`BkAzDoC~GaFhI_GbCyAHSNMrBaAt@a@VUh@s@N]TwA@[KsAUgBQmDTiBJmAT{DReCj@yGf@yFCAAEG]IQCMqJiAaHy@eGs@cCUsBUm@IKZuBtCuDzE_@Vk@v@kAxAgAxAg@f@Y^EFE^MnAQpB[bBGz@?j@FVDHVRF@f@FP@l@MJCV_@BW?YIOSIWIoC@cICk@Eg@@m@CkDKu@@}B?eAHgAHuEZ}G\\wMX}LD_KBgC@mBD_FZaCTuEt@"
+            },
+            "summary": "M7",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
